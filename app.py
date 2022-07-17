@@ -3,7 +3,7 @@
 
 # In[1]:
 
-
+import tensorflow as tf
 from flask import Flask, render_template, request
 from werkzeug.utils import secure_filename
 from skimage import io
